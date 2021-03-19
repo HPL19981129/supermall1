@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const config1 = {
+            host:'localhost',
+            port:3306,
+            name:'root',
+            pass:'root',
+            test:'test'
+        };
+
+        const config2 = {
+            host:'www1124953306@qq.com',
+            port:3308,
+            name:'hpl',
+            pass:'123',
+            test2:'test2'
+
+        }
+
+        console.log(Object.assign(config1,config2));
+    </script>
+</body>
+</html>
